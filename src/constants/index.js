@@ -52,6 +52,7 @@ const services = [
   },
 ];
 
+// These are the technologies I use.
 const technologies = [
   {
     name: "HTML 5",
