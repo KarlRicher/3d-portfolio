@@ -13,6 +13,7 @@ import {
   nodejs,
   mongodb,
   git,
+  github,
   figma,
   docker,
   meta,
@@ -23,7 +24,7 @@ import {
   jobit,
   tripguide,
   threejs,
-} from "../assets";
+} from "../assets"
 
 export const navLinks = [
   {
@@ -38,7 +39,7 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
-];
+]
 
 // These are the services I offer.
 const services = [
@@ -50,9 +51,9 @@ const services = [
     title: "Backend Developer",
     icon: backend,
   },
-];
+]
 
-// These are the technologies I use.
+// These are the technologies that I use.
 const technologies = [
   {
     name: "HTML 5",
@@ -67,16 +68,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -99,14 +92,10 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "GitHub",
+    icon: github,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
-];
+]
 
 const experiences = [
   {
@@ -161,7 +150,7 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-];
+]
 
 const testimonials = [
   {
@@ -188,7 +177,7 @@ const testimonials = [
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
-];
+]
 
 const projects = [
   {
@@ -254,6 +243,6 @@ const projects = [
     image: tripguide,
     source_code_link: "https://github.com/",
   },
-];
+]
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects }

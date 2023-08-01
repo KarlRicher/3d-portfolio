@@ -11,6 +11,7 @@ import { experiences } from "../constants"
 import { SectionWrapper } from "../hoc"
 import { textVariant } from "../utils/motions"
 
+// This function creates the entirety of the styling for the timeline that shows my work experience.
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
@@ -31,6 +32,7 @@ const ExperienceCard = ({ experience }) => {
         </div>
       }
     >
+      {/* This div contains the Title I had at each job as well as the name of the company I was working for. */}
       <div>
         <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
         <p
@@ -41,6 +43,7 @@ const ExperienceCard = ({ experience }) => {
         </p>
       </div>
 
+      {/* This creates the list which will show the responsibilities I had at each job. */}
       <ul className="mt-5 list-disc ml-5 space-y-2">
         {experience.points.map((point, index) => (
           <li
@@ -58,6 +61,7 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
+      {/* This div contains the header of the section. */}
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
           What I have done so far
@@ -69,6 +73,7 @@ const Experience = () => {
 
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
+          {/* This maps over every job I have listed in the "constants" file and displays them on the timeline. */}
           {experiences.map((experience, index) => (
             <ExperienceCard
               key={`experience-${index}`}
