@@ -44,16 +44,24 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px max-w-3xl leading-[30px]"
       >
-        I am a former ESL teacher who has recently made the switch to web
-        development. You could say that I am passionate about all languages, no
-        matter if they are spoken or coding ones. I have chosen such a different
-        career path not only for this reason but also because of my
-        long-standing interest in programming and new technologies. I recently
-        graduated from the Full-Stack Web Development Bootcamp at Concordia
-        University, and I'm now looking for my next opportunity in the industry.
-        I am originally from Ville-Marie (the one in Abitibi-Témiscamingue), but
-        I recently moved to Montreal and I am available for work there or
-        remotely.
+        Greetings! I am an experienced ESL teacher who has recently embarked on
+        an exciting journey into the world of web development. My fascination
+        with languages, whether spoken or in coding, has been the driving force
+        behind my career transition. Alongside this passion, my enduring
+        curiosity for programming and emerging technologies has led me to this
+        new path. I recently completed the rigorous Full-Stack Web Development
+        Bootcamp at Concordia University, equipping me with a diverse skill set.
+        <br></br>
+        <br></br>Originally hailing from Ville-Marie in Abitibi-Témiscamingue, I
+        have recently relocated to the vibrant city of Montreal, where I am
+        eagerly seeking my next opportunity in the web development industry. My
+        adaptability allows me to work seamlessly both in Montreal and remotely,
+        granting me the flexibility to collaborate effectively wherever the
+        opportunity arises.
+        <br></br>
+        <br></br>I am enthusiastic about contributing my skills to innovative
+        projects and joining a dynamic team. Let's connect and explore how my
+        passion for languages and technology can add value to your organization!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
