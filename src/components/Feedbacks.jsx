@@ -61,6 +61,10 @@ const Feedbacks = () => {
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}
       </div>
+      <div className={`${styles.paddingX} pb-14 text-center`}>
+        Please note that these testimonials are placeholders, as I have yet to
+        land my first job or client as a developer.
+      </div>
     </div>
   )
 }
