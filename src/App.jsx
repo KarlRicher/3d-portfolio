@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom"
 
 import {
   About,
@@ -10,8 +10,8 @@ import {
   Tech,
   Works,
   StarsCanvas,
-} from "./components";
-import { Stars } from "@react-three/drei";
+} from "./components"
+import { Stars } from "@react-three/drei"
 
 const App = () => {
   return (
@@ -32,7 +32,7 @@ const App = () => {
         </div>
       </div>
     </BrowserRouter>
-  );
-};
+  )
+}
 
-export default App;
+export default App

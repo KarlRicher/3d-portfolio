@@ -63,12 +63,10 @@ const Experience = () => {
     <>
       {/* This div contains the header of the section. */}
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
+        <p className={styles.sectionSubText}>
+          What I have been up to before this
         </p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience.
-        </h2>
+        <h2 className={styles.sectionHeadText}>Work Experience.</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">
