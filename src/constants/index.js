@@ -28,6 +28,9 @@ import {
   SAQ,
   gyva,
   bostonpizza,
+  powerhub,
+  ewatch,
+  slingair,
 } from "../assets"
 
 export const navLinks = [
@@ -184,9 +187,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "PowerHub",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Your go-to hub for strength, technique, and community. Elevate your performance with expert tips, training insights, and connect with fellow powerlifters on our dedicated social platform.",
     tags: [
       {
         name: "react",
@@ -197,45 +200,45 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "nodejs",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: powerhub,
+    source_code_link: "https://github.com/KarlRicher/PowerHub",
   },
   {
-    name: "Job IT",
+    name: "E-Watch",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Discover a curated collection of top-tier sports watches and gadgets designed to elevate your athletic journey. From tracking your milestones to enhancing your training, find your perfect timepiece for peak performance.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "restapi",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: ewatch,
+    source_code_link: "https://github.com/KarlRicher/project-GROUP-e-commerce",
   },
   {
-    name: "Trip Guide",
+    name: "SlingAir",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive travel booking platform that allows users to book flights online for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
@@ -243,8 +246,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: slingair,
+    source_code_link: "https://github.com/KarlRicher/project-slingair",
   },
 ]
 

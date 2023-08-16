@@ -34,6 +34,9 @@ import bostonpizza from "./company/bostonpizza.png"
 import carrent from "./carrent.png"
 import jobit from "./jobit.png"
 import tripguide from "./tripguide.png"
+import powerhub from "./powerhub.png"
+import ewatch from "./ewatch.png"
+import slingair from "./slingair.png"
 
 export {
   mylogo,
@@ -69,4 +72,7 @@ export {
   SAQ,
   gyva,
   bostonpizza,
+  powerhub,
+  ewatch,
+  slingair,
 }
